@@ -30,7 +30,7 @@ public class TodoList {
     // Method to add a Todo item
     public void addTodoItem(String description) {
         if (count < todoItems.length) {
-            todoItems[count] = new TodoItem(description);
+            todoItems[count] = new TodoItem(description, new Date(0));
             count++;
         } else {
             System.out.println("Todo list is full!");
