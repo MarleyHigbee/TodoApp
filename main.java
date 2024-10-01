@@ -30,7 +30,7 @@ public class TodoList {
     // Method to add a Todo item
     public void addTodoItem(String description) {
         if (count < todoItems.length) {
-            todoItems[count] = new TodoItem(description);
+            todoItems[count] = new TodoItem(description, new Date());
             count++;
         } else {
             System.out.println("Todo list is full!");
@@ -54,6 +54,7 @@ public class TodoList {
         
         // Display all items
         myTodoList.displayTodoItems();
-        system.out.println("Todo merge conflict :)")
+        System.out.println("Todo merge conflict :)");
+        System.out.println("add-date merge conflict :(");
     }
 }
