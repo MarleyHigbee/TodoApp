@@ -54,5 +54,6 @@ public class TodoList {
         
         // Display all items
         myTodoList.displayTodoItems();
+        system.out.println("Todo merge conflict :)")
     }
 }
