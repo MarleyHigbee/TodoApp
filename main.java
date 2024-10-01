@@ -11,6 +11,10 @@ public class TodoList {
             this.dueDate = dueDate;
         }
 
+        public TodoItem(String description) {
+            this.description = description;
+            this.dueDate = new Date();
+        }
         @Override
         public String toString() {
             return "Task: " + description + " | Due Date: " + dueDate;
